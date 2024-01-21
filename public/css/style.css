@@ -37,10 +37,16 @@ p{
     margin-top: 50px;
     height: 350px;
     width: 170px;
+    overflow: hidden;
     border: 4px solid #0f46bb;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.firstDrink {
+    color: transparent;
+
+}
+
 .firstDrinkbg {
     background-color: transparent;
     color: transparent;
@@ -52,11 +58,60 @@ p{
     overflow: hidden;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
-    transition: height 0.1s ease-in-out;
+    transition: height 0.2s ease-in-out;
 }
 
 .firstDrinkbg.expand {
     height: 44px;
+    background-color: dodgerblue;
+}
+/*second drink start*/
+.secondDrink {
+    color: transparent;
+
+}
+.secondDrinkbg {
+   
+    
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 170px;
+    height: 44px;
+    overflow: hidden;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: height 0.2s ease-in-out;
+}
+
+
+.secondDrinkbg.expand {
+    height: 88px;
+    background-color: dodgerblue;
+}
+
+/*thirdDrink start*/
+.thirdDrink {
+    color: transparent;
+
+}
+.thirdDrinkbg {
+   
+    
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 170px;
+    height: 88px;
+    overflow: hidden;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: height 0.2s ease-in-out;
+}
+
+
+.thirdDrinkbg.expand {
+    height: 132px;
     background-color: dodgerblue;
 }
 
@@ -67,9 +122,7 @@ h2 {
     color: #0f46bb;
     font-family: Arial, Helvetica, sans-serif;
     
-}
-.firstDrink {
-    color: transparent;
+    
 }
 
 .bot {
